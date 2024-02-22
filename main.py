@@ -232,12 +232,3 @@ def test_form(driver_chrome):
     el = driver_chrome.find_element(By.XPATH, xpath)
 
     assert 'd.taggart@gmail.com' in el.text
-
-
-
-
-
-
-
-
-
