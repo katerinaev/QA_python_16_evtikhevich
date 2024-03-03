@@ -1,7 +1,6 @@
 import time
 
 import pytest
-from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -11,7 +10,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-from helpers import force_click, scroll_to
+from tests.helpers import force_click, scroll_to
 
 
 @pytest.fixture
